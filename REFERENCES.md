@@ -59,16 +59,10 @@ None of the references above document the scene Sideloader keys. They were deter
 - `filterInfoGUID`, `rampInfoGUID`, `mapInfoGUID`, `bgmInfoGUID`: plain GUID strings.
 
 ## 6. Other links
-
-Kept for future reference.
-
+- https://github.com/IllusionMods/BepisPlugins/tree/master/src/Core_Sideloader_Studio/UniversalAutoResolver
 - https://github.com/great-majority/koikatu.js
 - https://pypi.org/project/kkloader/
 - https://github.com/FairBear/KK_Wardrobe
 - https://github.com/im-mi/KoiCatalog
 - https://github.com/great-majority/KoikatuCharaLoader
-- https://github.com/topics/koikatsu?o=asc&s=updated
-- https://github.com/great-majority/KoikatuCharaLoader/blob/master/README.md
-- https://www.pixiv.net/en/artworks/101587523
 - https://github.com/DaniJani2025/koikatsu-card-sorter
-- https://github.com/arocarlisle/KKABMX
