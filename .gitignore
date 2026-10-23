@@ -28,6 +28,10 @@ _ReSharper*/
 *.DotSettings.user
 .idea/
 
+# Test and sample data (local only, never committed)
+Examples/
+Mods/
+
 # OS files
 Thumbs.db
 ehthumbs.db
