@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>KoikatsuCardReader</RootNamespace>
+    <AssemblyName>KoikatsuCardReader</AssemblyName>
+    <AssemblyTitle>KoikatsuCardReader</AssemblyTitle>
+    <Product>KoikatsuCardReader</Product>
+    <Version>1.0.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Authors>Acezen</Authors>
+    <Company>Acezen</Company>
+    <Copyright>Copyright (C) 2026 Acezen</Copyright>
+    <Description>Read-only tool that scans Koikatsu cards and reports the plugins and zipmods each card depends on.</Description>
+    <RepositoryUrl>https://github.com/acezen3d/KoikatsuCardReader</RepositoryUrl>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.IO.Compression.FileSystem" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MessagePack" Version="2.5.307" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
+
